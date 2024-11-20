@@ -106,10 +106,11 @@ body {
 
 
 .about-images {
-    display: flex;
+   display: grid;
     justify-content: center;
+      
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     gap: 2rem;
-    margin-top: 2rem;
 }
 
 .about-images img {
